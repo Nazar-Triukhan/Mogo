@@ -1,0 +1,141 @@
+:root{
+  --text-color: #95E1D3;
+  --texr-hover-color: #F38181;
+  --title-text-color: #333;
+  --mini-text-color: #B6B6B6;
+}
+
+.container{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-hero{
+  width: 274px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* header */
+
+.header{
+  font-family: Montserrat;
+  padding-top: 17px;
+  padding-bottom: 80px;
+}
+
+.header-box{
+  display: flex;
+  align-items: center;
+}
+
+.logo-header{ 
+color: var(--text-color);
+font-size: 30px;
+font-weight: 700;
+line-height: normal;
+width: 98px;
+height: 33px;  
+margin-right: 632px;
+}
+
+.items-header{
+  display: flex;
+  gap: 55px;
+}
+
+.nav-header{
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+color: var(--text-color);  
+display: flex;
+}
+
+.nav-header:hover{
+  color: var(--texr-hover-color);
+  border-bottom: 1px solid var(--texr-hover-color);
+  width: 50px;
+}
+/* шапка типу */
+
+.container-hero{
+margin-bottom: 109px;
+margin-top:  20px;
+}
+
+.title-hero{
+  color: var(--title-text-color);
+font-family: "Kaushan Script";
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: center;
+}
+
+.subtitle-hero{
+  color: var(--title-text-color);
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+display: flex;
+justify-content: center;
+}
+
+/* fgfgfgffg  */
+
+.informashion{
+  margin-bottom: 100px;
+}
+
+/* Контейнер */
+.container-informashion {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+    width: 100%;
+  max-width: 1168px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Елементи списку */
+.items-informashion {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: contents; Дозволяє працювати з елементами Grid
+}
+
+/* Елемент */
+.item-informashion {
+  text-align: center;
+}
+
+.title-informashion{
+  color: var(--title-text-color);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+font-variant: small-caps;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.text-informashion{
+  color: var(--mini-text-color);
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; 
+}
